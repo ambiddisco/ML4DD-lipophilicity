@@ -33,3 +33,8 @@ Data:  https://tdcommons.ai/single_pred_tasks/adme/#lipophilicity-astrazeneca
 - The model should work in a real-world environment providing
 - Explainable Prediction
 - Indication about the applicability domain
+
+
+##### Links to papers
+- https://pubs.acs.org/doi/10.1021/mp0700413#
+- https://www.sciencedirect.com/science/article/abs/pii/S0169743921000770
