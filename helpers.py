@@ -77,3 +77,4 @@ def compute_descriptors(mol):
         'fr_NH0': Fragments.fr_NH0(mol), # 39
         'fr_ArOH': Fragments.fr_Ar_OH(mol), # 40
     }
+
