@@ -34,7 +34,25 @@ Data:  https://tdcommons.ai/single_pred_tasks/adme/#lipophilicity-astrazeneca
 - Explainable Prediction
 - Indication about the applicability domain
 
+---
 
-#### Links to papers
-- https://pubs.acs.org/doi/10.1021/mp0700413#
-- https://www.sciencedirect.com/science/article/abs/pii/S0169743921000770
+### Files in the repository and what they do:
+- **README.md**: Markdown file which summarises project objectives and repository content;
+- **Lipophilicity.ipynb**: Python Notebook containing the code for non-GNN regression models, with explanation for each step, following the processes learned in class;
+- **GNN_models_randomsplit**: Python Notebook containing the code for GNN models, which compares a custom coded simple Graph model with convolutional layers (baseline), PyTorch's PyG GCN (Graph Convolutional Network) model, and PyTorch's PyG GIN (Graph Isomorphisms Network) model, using a random split of the initial data;
+- **GNN_models_scaffoldsplit**: Python Notebook containing the code for the same GNN models, using a scaffold split of the initial data;
+- **compare_models_testsets.ipynb**: A Python Notebook evaluating the 6 total resulting models (3 on one training split method, 3 on the other);
+- **helpers.ipynb**: A collection of helper functions including code from the lectures, used in the GNN notebooks.
+
+Directories:
+- **Research papers**: Contains a selection of PDFs used during the literature search section;
+- **models**: Contains results from non-GNN model creation;
+- **saved_models_randomsplit**: Contains model data from GNN model creation using random data splitting;
+- **saved_models_scaffoldsplit**: Contains model data from GNN model creation using scaffold data splitting; 
+
+---
+
+### Work distribution:
+- **Alexandra Biddiscombe**: Data Exploration, Literature Study and Model Research, Report
+- **Louie Daans**: Data Exploration, GNN Theory Research, GNN Modelling Decisions, Report
+- **Viktória Kubišová**: Project Management, Data Exploration, Feature Selection and Analysis, Modelling Decisions, Report
